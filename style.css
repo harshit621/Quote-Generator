@@ -1,0 +1,50 @@
+
+    @import url('https://fonts.googleapis.com/css2?family=Gabriela&display=swap');
+
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 600px; /* Viewport height */
+      background-image: url('https://img.freepik.com/premium-vector/hanging-light-bulbs-with-one-glowing-blue-background-concept-idea_322958-1046.jpg'); /* Replace with your image URL */
+      background-size: cover; 
+      background-position: center; 
+    }
+
+    .quote-container {
+        margin-top: 120px;
+      background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+      padding: 20px;
+      border-radius: 5px;
+      text-align: center;
+    }
+
+    button {
+      
+      margin-top: 20px;
+      padding: 10px 20px;
+      border: none;
+      background-color: #4CAF50;
+      color: white;
+      border-radius: 15px;
+      cursor: pointer;
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 18px;
+    }
+    button:hover {
+        background-color: #3e8e44;
+        scale:calc(1.05);
+        transition-duration: 1600ms;
+    }
+    p {
+    font-family: "Gabriela", serif;
+    font-weight: 400;
+    font-style: normal;
+    }
+  
+
+
+
+  
